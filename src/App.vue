@@ -15,7 +15,7 @@ import TeamCard from "./components/TeamCard.vue";
 import SectionNews from "./components/SectionNews.vue";
 export default {
   name: "App",
-  components: { TeamCard,SectionNews },
+  components: { TeamCard,SectionNews},
   data() {
     return {
       member: [
