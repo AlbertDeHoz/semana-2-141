@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="container">
+  <TopBanner></TopBanner>
   <SectionNews></SectionNews>
     <div class="row">
       <team-card :member="member[0]"></team-card>
@@ -13,9 +14,10 @@
 <script>
 import TeamCard from "./components/TeamCard.vue";
 import SectionNews from "./components/SectionNews.vue";
+import TopBanner from "./components/SectionNews.vue";
 export default {
   name: "App",
-  components: { TeamCard,SectionNews },
+  components: { TeamCard,SectionNews,TopBanner},
   data() {
     return {
       member: [
