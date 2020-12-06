@@ -1,6 +1,8 @@
 <template>
   <div id="app" class="container">
-  <SectionNews></SectionNews>
+  <SectionNews>
+    
+  </SectionNews>
     <div class="row">
       <team-card :member="member[0]"></team-card>
       <team-card :member="member[1]"></team-card>
@@ -25,7 +27,7 @@ export default {
           descripcion:
             "Tengo 18 años, vivo en Palmira. Soy estudiante de la Universidad del Valle sede Palmira,en dónde estudio Tecnología en Sistemas de Información, actualmente estoy en 4to semestre. Me gusta la programacion, todo lo relacionado y quiero aprender más.",
           rol: "Desarrollador backend",
-          image: "/img/l2.205c7e24.jpg",
+          image: "../assets/img/l2.jpg",
         },
         {
           codigo: 2,
