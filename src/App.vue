@@ -1,15 +1,7 @@
 <template>
-<<<<<<< HEAD
   <div id="app" class="container">
-  <SectionNews>
-    
-  </SectionNews>
-    <div class="row">
-=======
-  <div id="app" class="container-fluid">
   <SectionNews></SectionNews>
-    <div class="row" id = "team">
->>>>>>> a06a26209030dd1beb86b2b0e0160f8d8e4a3d26
+    <div class="row" id="team">
       <team-card :member="member[0]"></team-card>
       <team-card :member="member[1]"></team-card>
       <team-card :member="member[2]"></team-card>
@@ -33,11 +25,7 @@ export default {
           descripcion:
             "Tengo 18 años, vivo en Palmira. Soy estudiante de la Universidad del Valle sede Palmira,en dónde estudio Tecnología en Sistemas de Información, actualmente estoy en 4to semestre. Me gusta la programacion, todo lo relacionado y quiero aprender más.",
           rol: "Desarrollador backend",
-<<<<<<< HEAD
-          image: "../assets/img/l2.jpg",
-=======
           image: '/assets/images/Leandro.jpg',
->>>>>>> a06a26209030dd1beb86b2b0e0160f8d8e4a3d26
         },
         {
           codigo: 2,
