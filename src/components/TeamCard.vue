@@ -18,17 +18,21 @@
         </div>
       </div>
     </div>
- 
 </template>
 
 <script>
+//var ruta='"../assets/img/l2.jpg"'
 
 export default {
+  // src="../assets/img/l2.jpg"  :src="member.image"  :src="require(member.image)" ${publicPath}my-image.png`
   name: "TeamCard",
 
-   props: {member:{type: Object}},
+  props: { member: { type: Object } }
+  }
+ 
   
-};
+
+
 </script>
 
 <style scoped>

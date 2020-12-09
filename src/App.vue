@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="container-fluid">
+  <div id="app" class="container">
   <SectionNews></SectionNews>
-    <div class="row" id = "team">
+    <div class="row" id="team">
       <team-card :member="member[0]"></team-card>
       <team-card :member="member[1]"></team-card>
       <team-card :member="member[2]"></team-card>
