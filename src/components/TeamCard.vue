@@ -1,5 +1,5 @@
 <template>
-    <div class="col-3 bg-white rounded mb-5">
+    <div class="col-lg-3 col-md-6 col-12 bg-white rounded mb-5">
       <div class="card bg-dark text-white p-4 h-100">
         <img class="card-img-top" src="@/assets/images/Leandro.jpg" alt="Card image cap" v-if="member.codigo===1"/>
         <img class="card-img-top" src="@/assets/images/Nicolay.jpg" alt="Card image cap" v-if="member.codigo===2"/>
