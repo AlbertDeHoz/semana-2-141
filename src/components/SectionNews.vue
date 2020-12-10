@@ -1,7 +1,7 @@
 <template>
   <div class="row" id="news">
     <article
-      class="tarjetaNoticia card col-6 mb-3 mt-3"
+      class="tarjetaNoticia card col-lg-6 mb-3 mt-3"
       v-for="(movie, index) of movies"
       :key="index"
     >
